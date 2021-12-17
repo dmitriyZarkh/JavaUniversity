@@ -1,4 +1,4 @@
-package ifElse;
+package syntax.ifelse;
 
 public class AverageNumber {
 
