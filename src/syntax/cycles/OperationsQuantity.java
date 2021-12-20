@@ -1,4 +1,4 @@
-package syntax.ifelse;
+package syntax.cycles;
 
 import java.util.Scanner;
 
