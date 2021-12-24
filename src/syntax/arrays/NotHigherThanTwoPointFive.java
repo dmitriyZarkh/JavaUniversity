@@ -6,10 +6,12 @@ public class NotHigherThanTwoPointFive {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int arLen = scanner.nextInt();
-        double[] array = new double[arLen];
-        for (int i = 0; i < array.length; i++) {
-            array[i] = scanner.nextDouble();
+        String arLen = scanner.nextLine();
+        int intLength = Integer.parseInt(arLen);
+        double[] array = new double[intLength];
+        String string = scanner.nextLine();
+        for (int i = 0; i < string.length(); i++) {
+            array[i] = (int) string.charAt(i);
         }
         int index = 101;
         double value = Double.MAX_VALUE;
