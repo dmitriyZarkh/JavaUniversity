@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class DivisionBySix {
 
     public static void main(String[] args) {
+        StringBuilder b;
+        StringBuffer sb;
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int sum = 0;
