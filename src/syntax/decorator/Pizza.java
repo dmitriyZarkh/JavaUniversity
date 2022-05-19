@@ -11,11 +11,11 @@ public class Pizza implements Order{
 
     @Override
     public double getPrice() {
-        return 0;
+        return this.price;
     }
 
     @Override
     public String getLabel() {
-        return null;
+        return this.label;
     }
 }
